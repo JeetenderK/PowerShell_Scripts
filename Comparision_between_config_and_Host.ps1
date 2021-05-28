@@ -1,5 +1,9 @@
-﻿$ScriptFolder = split-path -parent $MyInvocation.MyCommand.Path
-$ScriptName = Split-Path -Leaf $MyInvocation.MyCommand.Path
+
+### Testing comment
+
+$ScriptFolder = split-path -parent $MyInvocation.MyCommand.Path
+$ScriptName = Split-Path -Leaf $MyInvocation.MyCommand.Path 
+
 
 $MissingEntry_flag = $false
 
